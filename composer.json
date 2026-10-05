@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/php-amqplib-php-amqplib",
+    "description": "Tyhp type definitions for php-amqplib/php-amqplib 3.7.4.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.7.4",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/php-amqplib-php-amqplib-impl": "~3.7.4.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/php-amqplib-php-amqplib-impl"
+        }
+    }
+}
